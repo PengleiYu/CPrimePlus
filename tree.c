@@ -24,7 +24,5 @@ Trnode *MakeNode(const Item *pi) {
 }
 
 static int compare(const Item *item1, const Item *item2) {
-    char * nam;
-    item1->petName="";
 }
 
