@@ -12,6 +12,7 @@ typedef struct item {
     char petName[SLEN];
     char petKind[SLEN];
 } Item;
+//typedef int Item;
 #define MAXITEMS 10
 
 typedef struct trnode {
@@ -40,5 +41,6 @@ bool DeleteItem(const Item *pi, Tree *ptree);
 
 void Traverse(const Tree *ptree, void(*pFun)(Item item));
 
+void DeleteAll(Tree *ptree);
 
 #endif //CPRIMEPLUS_TREE_H
